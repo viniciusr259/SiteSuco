@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Delicia Gelada</string>
+    <string name="title_activity_central">Delicia Gelada</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_center">Delicia Gelada</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

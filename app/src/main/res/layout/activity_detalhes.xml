@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.sitesuco.app.Detalhes"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+        <TextView
+            android:id="@+id/PrecoSuco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            android:textColor="#208c00"
+            android:textStyle="bold"
+            android:text="Preço : R$ 20,00"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/ImgView"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome :"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suco Maracuja"
+            android:textSize="18dp"
+            android:id="@+id/NomeSuco"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detalhes :"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/DetalhesSuco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:justificationMode="none"
+            android:textAlignment="center"
+            android:text="Detalhes : Suco feito da fruta maracuja"
+            android:textSize="18dp"
+            tools:textAlignment="inherit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avaliçao :"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <RatingBar
+            android:numStars="5"
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#ffcb9a" />
+
+</LinearLayout>
